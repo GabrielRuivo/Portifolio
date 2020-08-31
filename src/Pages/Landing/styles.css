@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+.landing {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  flex-direction: row;
+  width: 100%;
+  height: 100vh;
+}
+
+.box-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 45vw;
+  height: 100vh;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+
+  width: 90%;
+  height: 30%;
+  padding-left: 3%;
+}
+
+.hello {
+  font: 500 4rem Poppins;
+}
+
+.name {
+  margin-top: -1rem;
+  font: 600 3.5rem Poppins;
+  color: #02246e;
+}
+
+.description {
+  margin-top: -1.5rem;
+  font: 300 1.5rem Poppins;
+}
+
+.see-project {
+  font: 200 1rem Poppins;
+  margin-top: 4rem;
+  width: 15rem;
+  background-color: #02246e;
+  color: aliceblue;
+  border: none;
+  border-radius: 3rem;
+  padding: 1.5rem;
+  outline: none;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.see-project:hover {
+  background-color: #0d46c0 ;
+}
+
+.image-bg {
+  width: 55vw;
+  height: 100vh;
+  border-bottom-left-radius: 80%;
+  background-image: url(../../assets/workspace.jpg);
+  background-size: cover;
+}
